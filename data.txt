@@ -1,0 +1,18 @@
+USERMODEL
+full name: String
+email: String
+password: String
+cart: String
+isAdmin: boolean
+orders: array
+contact: number
+picture: db
+
+PRODUCT
+image
+name
+price
+discount
+bgcolor
+panelcolor
+textcolor
