@@ -1,0 +1,12 @@
+/ = signup or login
+/shop = shop
+/users/cart = cart
+/admin = admin panel
+/owners/product = shows all products
+/owner/admin = show admin panel to create products
+
+ASSUMPTIONS
+/ = login or signup
+/users/login = logins a particular ser
+/users/register = registers a particular user
+/owner = creates an owner
