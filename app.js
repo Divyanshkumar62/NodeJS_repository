@@ -32,7 +32,7 @@ app.use('/', indexRouter)
 app.use('/owners', ownersRouter)
 app.use('/users', usersRouter)
 app.use('/products', productsRouter)
-
-app.listen(3500, () => {
-    console.log("3500")
+const port = process.env.PORT || 5500
+app.listen(port, () => {
+    console.log(`Server is Listening on PORT: ${port}`)
 })
